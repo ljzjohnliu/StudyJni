@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StudyJni</string>
+    <string name="splash_normal_test">日常测试</string>
+    <string name="splash_jni_test">JNI测试</string>
 </resources>

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.study.jni"
+    namespace = "com.study.jnidemo"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.study.jni"
+        applicationId = "com.study.jnidemo"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

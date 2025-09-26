@@ -1,4 +1,4 @@
-package com.study.jni
+package com.study.jnidemo
 
 import org.junit.Test
 
