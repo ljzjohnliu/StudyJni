@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.Button
 import androidx.activity.ComponentActivity
 import androidx.core.app.ActivityCompat
+import com.study.jni.TestJni
 import com.study.jnidemo.R
 import com.study.jnidemo.utils.ViewUtil
 
@@ -34,9 +35,10 @@ class SplashActivity : ComponentActivity() {
         normalBtn = findViewById(R.id.nomalTest)
         jniBtn = findViewById(R.id.jniTest)
 
-//        normalBtn!!.setOnClickListener {
+        normalBtn!!.setOnClickListener {
 //            startActivity(Intent(this, MainActivity::class.java))
-//        }
+            TestJni.test();
+        }
         jniBtn!!.setOnClickListener{
             startActivity(Intent(this, JniTestActivity::class.java))
         }
